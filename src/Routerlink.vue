@@ -1,13 +1,11 @@
 <template>
   <div id="routerlink">
     <router-link to="/">Root</router-link>
-<!--    <router-link to="/goto">Go to</router-link>-->
     <router-link to="/myTableList">myTableList</router-link>
     <router-link to="/searchForm">searchForm</router-link>
     <router-link to="/page">page</router-link>
     <router-link to="/formTable">formTable</router-link>
     <router-link to="/datepicker">datepicker</router-link>
-<!--    <router-link to="/page.html">page</router-link>-->
   </div>
 </template>
 

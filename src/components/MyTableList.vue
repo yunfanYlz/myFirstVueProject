@@ -64,7 +64,21 @@
         console.log(data.body.results)
         this.people = data.body.results
       }, function (data) {
-
+        alert('url无效，造数据')
+        // 造数据
+        let results = []
+        let newPerson = {}
+        for (let i = 0; i < 5; i++) {
+          newPerson.id = 'person000' + i
+          newPerson.name = 'person000' + i
+          newPerson.birthDay = ''
+          newPerson.age = i
+          newPerson.money = (i * 1000000.00)
+          newPerson.sex = (i % 2)
+          newPerson.isMarried = (i % 2 === 0)
+          results.push(newPerson)
+        }
+        this.people = results
       })
     },
     methods: {

@@ -8,6 +8,7 @@
 
 
 #安装项目
+# 首先，你得安装node.js----
 # install dependencies
 # npm install
 cnpm install

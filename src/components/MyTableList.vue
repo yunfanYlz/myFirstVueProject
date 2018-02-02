@@ -57,6 +57,7 @@
       'tableurl'
     ],
     created: function () {
+      console.log(this.tableurl)
       this.$http({
         method: 'jsonp',
         url: this.tableurl

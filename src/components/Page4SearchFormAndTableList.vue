@@ -1,6 +1,7 @@
 <template>
   <div>
     <my-formsearch></my-formsearch>
+    <!--<my-tablelist v-bind:tableurl="myurl"></my-tablelist>-->
     <my-tablelist v-bind:tableurl="myurl"></my-tablelist>
   </div>
 </template>
@@ -15,7 +16,7 @@
     },
     data: function () {
       return {
-        myurl: 'http://127.0.0.1:8088/consumner/vueJs/list'
+        myurl: 'http://127.0.0.1:8080/consumer/vueJs/list'
       }
     }
 
